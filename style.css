@@ -33,7 +33,7 @@ ul {
 
 li {
     list-style: none;
-    margin-left: 250px;
+    margin-left: 150px;
     margin-top: 2px;
     font-size: 14px;
 }
@@ -68,16 +68,18 @@ ul li a:hover {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(1.jpg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
-    text-align: center;
-    padding-top: 100px;
+    height: 60vh;
+    text-align: left;
+    padding-top: 225px;
     padding-left: 20px;
     padding-bottom: 25px;
     font-family: Arial;
-    font-size: 35px;
-    letter-spacing: 1.2px;
-    line-height: 30px;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 6.2px;
+    line-height: 40px;
 }
+
 
 #skills {
     background-color: #333;
@@ -91,14 +93,14 @@ ul li a:hover {
     color: white;
     position: relative;
     top: 50px;
-    text-align: left;
+    text-align: center;
     left: 40px;
 }
 .icons ion-icons{
     color: white;
     font-size: 60px;
     position: relative;
-    top: 50px;
+    margin-top: 50px;
     text-align: left;
     left: 40px;
 }
