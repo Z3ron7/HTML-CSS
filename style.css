@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.brand-name {
+    text-align: center;
+    color: #ff7200;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+}
+
+.navbar-header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: center;
+    list-style-type: none;
+    height: 50px;
+    width: 100%;
+
+}
+
+ul {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    list-style: none;
+    margin-left: 250px;
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.navbar-menu a {
+    padding: 20px;
+    text-decoration: none;
+
+    font-size: 1.5rem;
+}
+
+ul li a:hover {
+    color: #ff7200;
+}
+
+.container {
+    background-color: #8a8d8a;
+    height: 100vh;
+    text-align: center;
+
+}
+
+#home {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    font-size: 35px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+#skills {
+    background-color: #333;
+}
+
+#about {
+    background-color: #8a8d8a;
+}
+.icons a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 50px;
+    text-align: left;
+    left: 40px;
+}
+.icons ion-icons{
+    color: white;
+    font-size: 60px;
+    position: relative;
+    top: 50px;
+    text-align: left;
+    left: 40px;
+}
